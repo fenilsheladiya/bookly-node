@@ -1,0 +1,64 @@
+1)npm init -y
+
+2)npm i express colors
+
+3)server run := npm start/node server.js
+
+4)nodemon :- npm i nodemon // automatic file changing and server restart
+   npm run server//check
+
+5) dotenv :- npm i dotenv // no one can use our port number - security purpose
+
+6) mongoose :- npm i mongoose
+
+7)morgan :- npm i morgan    //api request show console ma
+ 
+=> create folder routes,controllers,models,middlewares,helpers
+
+8) create react app :- npx create-react-app client
+
+//rafce react arrow function with export
+
+9) react app start on cmd command = npm start
+
+10) react routing dom =  npm i react-router-dom
+
+11) react icons := npm install react-icons --save
+
+12) for rect seo :- npm i react-helmet
+
+13) api calling and handle (data get and post):- npm i axios
+
+14) toast notification :- npm i react-toastify
+
+15) one command two application run :- npm i concurrently(node server ma install)
+
+   server :- npm run server
+   client :- npm run client
+
+both combined: npm run dev  error("dev": "concurrently \"npm run server\" \"npm run client\"")
+
+16) cross origin error no show : npm i cors(node server ma install)
+
+17) login register clear after it hidden two method :- 1) context api 2) redux toolkit
+  in this context will use
+
+18) dashboard prevent :- private route clear
+
+19) use slugify in category controller :- npm i slugify(url ma - rey )best for seo
+
+20) npm i express-formidable :- easily upload files and images(require fs module)
+
+21) css library for edit (ant design) :- $ npm install antd --save
+
+22) braintree payment (by default use paypal):username : Fsheladiya email :2004
+    password: fenilsheladiya2004 (paypal :passs:_ fenilsheladiya2004)
+:- npm i braintree
+:- in react application :- npm i braintree-web-drop-in-react(direct ui)
+
+23) npm i moment //for display best format  date //install in client side
+
+
+
+my link admin - admin33@gmail.com pass;- admin123
+                fenilsheladiya2004@gmail.com pass:-fenil123
