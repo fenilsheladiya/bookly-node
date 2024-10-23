@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
   // const cors = require('cors');
 
   app.use(cors({
-    origin: 'http://localhost:8080', // Replace with your frontend's URL
+    origin: 'http://localhost:3000', // Replace with your frontend's URL
   }));
   
 
