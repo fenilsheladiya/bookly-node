@@ -6,6 +6,7 @@ import authRoutes from "./routes/authRoute.js";
 import productRoutes from "./routes/productRoutes.js"
 import categoryRoutes from "./routes/categoryRoutes.js"
 import morgan from "morgan";
+import cors from "cors";
 
 //configure env
 dotenv.config();
@@ -31,7 +32,7 @@ app.get("/", (req, res) => {
     res.send("<h1>Welcome to ecommerce app</h1>");
   });
   
-  const cors = require('cors');
+  // const cors = require('cors');
 
   app.use(cors({
     origin: 'http://localhost:8080', // Replace with your frontend's URL
