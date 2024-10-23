@@ -31,6 +31,14 @@ app.get("/", (req, res) => {
     res.send("<h1>Welcome to ecommerce app</h1>");
   });
   
+  const cors = require('cors');
+
+  app.use(cors({
+    origin: 'http://localhost:8080', // Replace with your frontend's URL
+  }));
+  
+
+
   //PORT
   const PORT = process.env.PORT || 8080;
   
