@@ -16,7 +16,9 @@ connectDB();
 
 //rest object
 const app = express();
-
+app.use(cors({
+  origin: 'http://localhost:3000', // Replace with your frontend's URL
+}));
 //middelwares
 app.use(express.json());
 app.use(morgan("dev"));
@@ -34,9 +36,7 @@ app.get("/", (req, res) => {
   
   // const cors = require('cors');
 
-  app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your frontend's URL
-  }));
+  
   
 
 
