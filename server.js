@@ -17,7 +17,7 @@ connectDB();
 //rest object
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your frontend's URL
+  origin: 'https://fantastic-lolly-6dbeb5.netlify.app', // Replace with your frontend's URL
 }));
 //middelwares
 app.use(express.json());
