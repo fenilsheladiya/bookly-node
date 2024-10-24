@@ -17,7 +17,7 @@ connectDB();
 //rest object
 const app = express();
 app.use(cors({
-  origin: 'https://bookly-online.netlify.app/', // Replace with your frontend's URL
+  origin: 'https://bookly-online.netlify.app', // Replace with your frontend's URL
 }));
 //middelwares
 app.use(express.json());
